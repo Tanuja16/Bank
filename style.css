@@ -16,6 +16,7 @@ section{
 
 section.sec1
 {
+    height: 80vh;
     background-image: url(img2.jpg);
     background-size: cover;
     background-color:white;
