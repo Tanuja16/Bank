@@ -1,5 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+header
+{
+    
+    position:fixed;
+    
+    
+    
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 35.78%;
+}
+button
+{
+    padding: 9px 25px;
+    background-color: rgba(0, 136,169, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #edf0f1;
+    border: none;
+    transition:all 0.9s ease 0s;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgba(0, 136,169, 0.5);
+     
+}
+
+
+li,a,b{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+b{
+    cursor: pointer;
+    transition: all 0.9s ease 0s;
+}
+b:hover{
+    cursor: pointer;
+}
+.nav_links
+{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.9s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#0088a9;
+}
 
 body{
     padding: 0;
@@ -16,8 +80,8 @@ section{
 
 section.sec1
 {
-    height: 80vh;
-    background-image: url(img2.jpg);
+    height: 95vh;
+    background-image: url(img/purple.jpg);
     background-size: cover;
     background-color:white;
     background-position: center center;
@@ -29,23 +93,24 @@ section.sec2
 {
 
     padding: 50px 100px;
-    background-color:rgba(41, 41, 184, 0.678);
-    color:rgb(102, 9, 209);
+    background-color:rgb(101, 45, 146);
+    color:rgb(255, 255, 255);
     font-size: 130px;
     text-align: center;
     vertical-align: middle;
     font-family: 'Bungee Shade', cursive;
     vertical-align: middle;
     alt: " ";
+    transition: 0.9s ease 0s;
 }
 .small{
     font-size: 30px;
-    color:rgb(102, 9, 209);
+    color:rgb(255, 255, 255);
     font-family: monospace;
 }
 section.sec3
 {    
-    background-image: url(img3.jpg);
+    background-image: url(img/img3.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
