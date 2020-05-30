@@ -5,19 +5,16 @@ header
 {
     
     position:fixed;
-    
-    
-    
     background-color: #24252A;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 35.78%;
+    padding: 5px 36.2%;
 }
 button
 {
     padding: 9px 25px;
-    background-color: rgba(0, 136,169, 1);
+    background-color: rgba(101, 45, 146, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #edf0f1;
@@ -29,25 +26,27 @@ button
 }
 
 button:hover{
-    background-color: rgba(0, 136,169, 0.5);
+    background-color: rgba(101, 45, 146, 0.5);
      
 }
 
 
-li,a,b{
+li,a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #edf0f1;
     text-decoration: none;
 }
 b{
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.9s ease 0s;
 }
-b:hover{
-    cursor: pointer;
-}
+
 .nav_links
 {
     list-style: none;
@@ -80,7 +79,7 @@ section{
 
 section.sec1
 {
-    height: 95vh;
+    height: 70vh;
     background-image: url(img/purple.jpg);
     background-size: cover;
     background-color:white;
@@ -108,6 +107,12 @@ section.sec2
     color:rgb(255, 255, 255);
     font-family: monospace;
 }
+.small:hover{
+    transition: 1.5s ease 0s;
+    color: rgb(113, 209, 238);
+    cursor: pointer;
+}
+
 section.sec3
 {    
     background-image: url(img/img3.jpg);
