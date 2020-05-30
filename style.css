@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 header
 {
-    
-    position:fixed;
     background-color: #24252A;
     display: flex;
     justify-content: space-between;
@@ -38,7 +36,6 @@ li,a{
     text-decoration: none;
 }
 b{
-    align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #edf0f1;
@@ -65,9 +62,11 @@ b{
 }
 
 body{
+
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: white;
     
 }
 
